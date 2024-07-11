@@ -1,0 +1,16 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: abc.test
+  description: ds
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: playbook-project
+  system: system:default/podcast
+  lifecycle: production
+  owner: user:default/breanna.davison
